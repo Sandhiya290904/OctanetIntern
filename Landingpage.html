@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Beauty Brand</title>
+    <style>
+        body{
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header{
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .hero {
+            position: relative;
+            color: #000000;
+            text-align: center;
+            padding: 100px 20px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            background-image: url('your-beautiful-image.jpg');
+            background-size: cover;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            opacity: 0.75;
+        }
+
+        .hero h1{
+            position: relative;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p{
+            position: relative;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .cta-button{
+            position: relative;
+            display: inline-block;
+            background-color: #ff3366;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .features{
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .feature{
+            margin-bottom: 40px;
+        }
+
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Felix Skin & Makeup</h1>
+        <p>Elevate Your Beauty with Our Exclusive Skincare Collection</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Discover Your Perfect Look</h1>
+        <p>Explore our exquisite skincare collection and embrace your beauty.</p>
+        <a href="#" class="cta-button">Shop Now</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h2>High-Quality Products</h2>
+            <p>Our  products are crafted with precision and care to bring out the best in you.</p>
+        </div>
+        <div class="feature">
+            <h2>Trendsetting Styles</h2>
+            <p>Stay ahead of the curve with our trendsetting makeup styles and looks.</p>
+        </div>
+        <div class="feature">
+            <h2>Cruelty-Free</h2>
+            <p>We are committed to cruelty-free beauty – no animals harmed in the making of our products.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Felix Skin & Makeup. All rights reserved.</p>
+    </footer>
+</body>
+</html>
